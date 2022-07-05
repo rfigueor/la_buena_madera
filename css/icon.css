@@ -1,0 +1,42 @@
+.img_message {
+  content: url("../assets/icon/global/message_16.png");
+  /* margin: 0;
+  padding: 0px;
+  text-align: center; */
+}
+
+.img_phone {
+  content: url("../assets/icon/global/phone-16.png");
+}
+
+.img_facebook {
+  content: url("../assets/icon/social/facebook-16.png");
+}
+
+.img_facebook:hover {
+  content: url("../assets/icon/social/facebook-16-b.png");
+}
+
+.img_linkedin {
+  content: url("../assets/icon/social/linkedin-16.png");
+}
+
+.img_linkedin:hover {
+  content: url("../assets/icon/social/linkedin-16-b.png");
+}
+
+.img_instagram {
+  content: url("../assets/icon/social/instagram-16.png");
+}
+
+.img_instagram:hover {
+  content: url("../assets/icon/social/instagram-16-b.png");
+}
+
+.img_twitter {
+  content: url("../assets/icon/social/twitter-16.png");
+}
+
+.img_twitter:hover {
+  content: url("../assets/icon/social/twitter-16-b.png");
+}
