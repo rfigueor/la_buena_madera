@@ -1,19 +1,11 @@
-.header_top {
+.header-bg {
   background-color: #353535;
 }
 
-.contact_info {
-  font-size: 14px !important;
-}
-
-.contact_info:hover{
-  text-decoration: underline;
-  font-size: 14px;
-}
-
-.title_nav{
+.nav-title{
+  font-size: 30px !important;
 	color: #353535;
 	text-decoration: none;
 	font-family: 'PPWoodland';
 	font-size: xx-large;
-}
+} 

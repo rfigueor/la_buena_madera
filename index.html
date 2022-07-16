@@ -25,138 +25,225 @@
     ></script>
   </head>
   <body>
-    <div class="page_containter">
-      <header class="p-1 header_top text-white">
+    <header>
+      <div class="px-3 py-2 header-bg text-white">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <div class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none header-contact">
+              <a href="tel:5687654321" class="nav-link px-2 text-white"> <i class="img_phone"></i>+56-8765-4321</a>
+              <a href="mailto:contacto@buenamadera.com" class="nav-link px-2 text-white"
+                ><i class="img_message"></i> contacto@buenamadera.com</a
+              >
+            </div>
+
+            <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small header-social">
               <li>
-                <a href="tel:9987654321" class="nav-link px-2 text-white contact_info"
-                  ><i class="img_phone"></i>+99 8765 4321</a
-                >
+                <a href="#" class="nav-link text-secondary img-facebook"></a>
               </li>
               <li>
-                <a href="mailto:contacto@buenamadera.com" class="nav-link px-2 text-white contact_info"
-                  ><i class="img_message"></i> contacto@buenamadera.com</a
-                >
+                <a href="#" class="nav-link text-secondary img-linkedin"></a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-secondary img-instagram"></a>
+              </li>
+              <li>
+                <a href="#" class="nav-link text-secondary img-twitter"></a>
               </li>
             </ul>
-            <div class="text-center">
-              <ul class="nav nav-pills">
-                <li>
-                  <a href="#" class="nav-link"><i class="fab img_facebook"></i></a>
-                </li>
-                <li>
-                  <a href="#" class="nav-link"><i class="fab img_linkedin"></i></a>
-                </li>
-                <li>
-                  <a href="#" class="nav-link"><i class="fab img_instagram"></i></a>
-                </li>
-                <li>
-                  <a href="#" class="nav-link"><i class="fab img_twitter"></i></a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
-      </header>
+      </div>
+    </header>
 
-      <nav class="navbar navbar-expand-lg navbar-white bg-white" aria-label="Eighth navbar example">
-        <div class="container">
-          <a class="navbar-brand title_nav" href="#"><img alt="" src="assets/logo_header.png">La Buena Madera</a>
-          
+    <nav class="navbar navbar-expand-md navbar-white bg-white">
+      <div class="container">
+        <a class="navbar-brand nav-title" href="#"><img alt="" src="assets/img/header_logo.png" />La Buena Madera</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-menu" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Projectos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
           <button
-            class="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarsExample07"
-            aria-controls="navbarsExample07"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
 
-          <div class="text-end">
-          <div class="collapse navbar-collapse " id="navbarsExample07">
+            <div class="container">
+              <div class="carousel-caption">
+                <span class="title">La Buena Madera</span>
+                <h1>
+                  Soluciones de carpinteria <br />
+                  profesional.
+                </h1>
+                <p>Desarrollo de soluciones de inicio a fin, desde la etapa de diseño hasta la construcción final.</p>
+                <!-- <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p> -->
+                <p><a class="btn btn-lg btn-primary btn-theme" href="#"><span class="btn-title">Soluciones</span></a></p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+
+            <div class="container">
+              <div class="carousel-caption">
+                <span class="title">La Buena Madera</span>
+                <h1>
+                  Tecnologia y materiales <br />
+                  de primera calidad
+                </h1>
+                <p>Materias primas de gran variedad y de alta calidad.</p>
+                <!-- <p><a class="btn btn-lg btn-primary" href="#"><span class="btn-title">Check Service</span></a></p> -->
+                <p><a class="btn btn-lg btn-primary btn-theme" href="#"><span class="btn-title">Servicios</span></a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> -->
+
+            <div class="container">
+              <div class="carousel-caption">
+                <span class="title">La Buena Madera</span>
+                <h1>Soluciones a las necesidades de nuestros clientes.</h1>
+                <p>
+                  Contamos con un equipo altamente calificado para brindar un servicio de calidad a lo largo de nuestros
+                  proyectos.
+                </p>
+                <!-- <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p> -->
+                <p><a class="btn btn-lg btn-primary btn-theme" href="#"><span class="btn-title">Proyectos</span></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nisi maxime accusamus, quam suscipit praesentium
+      quia, nihil recusandae aperiam dignissimos provident, perspiciatis numquam quasi nesciunt eaque fuga. Accusantium,
+      voluptatem atque? Dolorum iste quos corrupti aperiam, tenetur voluptatem officiis magni. Soluta exercitationem
+      laudantium quo maxime beatae obcaecati mollitia enim quia natus voluptatum. Unde beatae vitae tempore vel hic
+      dolore perferendis architecto? Repellat nihil at vero deleniti, fugit dignissimos neque sint alias voluptatibus
+      aperiam soluta veritatis officia sit doloribus porro accusantium, corrupti qui sapiente? Tempora officiis
+      doloremque iusto cupiditate recusandae suscipit dolorum? Laboriosam eligendi ut totam dicta repellendus laborum
+      aspernatur id quidem, quas iure, facilis minus, voluptate esse sed nesciunt ad doloremque unde ex. Aut voluptate
+      veritatis, quos illo tenetur dicta optio? Animi molestias, sint fugiat aut iste aperiam laudantium possimus
+      consequuntur laborum quidem nam quas et provident repudiandae amet beatae minus molestiae excepturi? Iure
+      assumenda rerum neque porro esse animi vel. Ipsa soluta deleniti repudiandae neque nemo modi doloremque, debitis
+      expedita, voluptate libero harum error incidunt molestiae magni repellat, cumque sint iusto maxime. Neque,
+      voluptatum accusantium aspernatur provident vitae dolore reprehenderit? Rerum dolorum voluptas totam odit
+      molestiae rem expedita ea quas quia? Repellendus, sunt quaerat? Ratione assumenda nesciunt quisquam esse eius,
+      eos, amet iusto delectus maxime similique ut adipisci quam quasi. Minus iure quod cum perspiciatis repudiandae
+      alias voluptate quia ex quis odit, voluptatem nihil, distinctio magnam error? Laborum illo explicabo eum,
+      incidunt, ad rerum maiores sapiente impedit laboriosam adipisci veritatis. Dicta atque officiis mollitia nulla
+      omnis praesentium, rem non architecto ducimus ea! Explicabo totam sequi accusantium molestiae, laborum omnis
+      corrupti placeat vel voluptate deleniti iusto autem incidunt eius quidem delectus! Fugit laudantium voluptas
+      praesentium maxime voluptatem, incidunt ratione officiis maiores labore ad quas eum facilis. Beatae quo officia
+      magnam quae, tenetur incidunt atque ipsum inventore quaerat enim error, quas autem!
+    </p>
+
+    <footer class="py-3 footer-content" style="background-image: url(assets/img/footer_bg.png)">
+      <div class="container text-white">
+        <div class="row">
+          <div class="footer-column col-xl-4 col-lg-5 col-md-12 col-sm-12 text-white">
             
-            
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
-              <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Servicios</a></li>
-                <!-- <ul class="dropdown-menu" aria-labelledby="dropdown07">
-                  <li><a class="dropdown-item" href="#">Carpinteria General</a></li>
-                  <li><a class="dropdown-item" href="#">Remodelación</a></li>
-                  <li><a class="dropdown-item" href="#">Diseño</a></li>
-                </ul> -->
-              </li>
-              <li class="nav-item"><a class="nav-link">Projectos</a></li>
-              <li class="nav-item"><a class="nav-link">Contacto</a></li>
+            <div class="footer-widget about-widget">
+                <div class="footer-title">
+                    <figure class="image"><a href="index.html"><img src="assets/img/footer_logo.png" alt="">La Buena Madera</a></figure>
+                </div>
+                <div class="footer-contact" >
+                    <!-- <div class="text resume">Tenemos más de 10 años de experiencia. Nos enorgullecemos de ofrecer soluciones de gran nivel para nuestros clientes a lo largo del pais.</div> -->
+                    <ul>
+                      <li class="nav-item mb-2"><span class="fa img-map"></span> Santiago, Chile.</li>
+                      <li class="nav-item mb-2"><span class="fa img-message"></span><a href="mailto:contacto@buenamadera.com"> contacto@buenamadera.com</a></li> 
+                      <li class="nav-item mb-2"><span class="fa img-phone"></span><a href="tel:56-8765-4321"> +56-8765-4321</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+          <div class="col-6 col-md-2 mb-3 categories">
+            <h5>Categorias</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><span class="fa img-arrow"></span><a href="#">Home</a></li>
+              <li class="nav-item mb-2"><span class="fa img-arrow"></span><a href="#">Features</a></li>
+              <li class="nav-item mb-2"><span class="fa img-arrow"></span><a href="#">Pricing</a></li>
+              <li class="nav-item mb-2"><span class="fa img-arrow"></span><a href="#">FAQs</a></li>
+              <li class="nav-item mb-2"><span class="fa img-arrow"></span><a href="#">About</a></li>
             </ul>
           </div>
-        </div>
-        </div>
-      </nav>
-    
 
-      <main>
 
-        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-          <!-- <div class="carousel-indicators">
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div> -->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-              
-              <div class="container">
-                <div class="carousel-caption">
-                  <span class="title">La Buena Madera</span>
-                  <h1>Entregamos soluciones de carpinteria profesional.</h1>
-                  <p>Desarrollamos soluciones de contrucciones de inicio a fin, acopañando a nuestros clientes desde la etapa de diseño hasta la construcción final.</p>
-                  <p><a class="btn btn-lg btn-primary btn-carousel" href="#">Nuestros Servicios</a></p>
-                </div>
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Suscríbete</h5>
+              <p>Estar al día. Siga nuestras últimas noticias, consejos de carpintería y ofertas especiales.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Correo electronico</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Correo electronico" />
+                <button class="btn btn-primary btn-theme" type="button">Subscribe</button>
               </div>
-            </div>
-            <div class="carousel-item">
-              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-      
-              <div class="container">
-                <div class="carousel-caption">
-                  <span class="title">La Buena Madera</span>
-                  <h1>Todos nuestros proyectos realizados con materiales de primera calidad.</h1>
-                  <p>Materias primas de gran calidad, ofreciendo una gran variadad en maderas para que nuestros clientes puedan desarrollar sus proyectos 100% personalizados.</p>
-                  <p><a class="btn btn-lg btn-primary btn-carousel" href="#">Nuestros Proyectos</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-      
-              <div class="container">
-                <div class="carousel-caption">
-                  <span class="title">La Buena Madera</span>
-                  <h1>Entregamos solucionaes integrales a las necesidades de nuestros clientes.</h1>
-                  <p>Contamos con un equipo transversal y altamente calificado para entregar un servicio de primera calidad a lo largo de nuestros proyectos.</p>
-                  <p><a class="btn btn-lg btn-primary btn-carousel" href="#">Nuestro Equipo</a></p>
-                </div>
-              </div>
-            </div>
+            </form>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
-      </main>
 
-
-  </div>
-  
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-1">
+          <p>&copy; 2022 La Buena Madera. Todos los derechos reservados.</p>
+          <ul class="list-unstyled d-flex footer-social">
+            <li class="ms-3">
+              <a href="#" class="text-secondary img-facebook"></a>
+            </li>
+            <li class="ms-3">
+              <a href="#" class="text-secondary img-linkedin"></a>
+            </li>
+            <li class="ms-3">
+              <a href="#" class="text-secondary img-instagram"></a>
+            </li>
+            <li class="ms-3">
+              <a href="#" class="text-secondary img-twitter"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
