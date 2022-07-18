@@ -26,7 +26,7 @@ body {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: #ab7442;
+  color: main-color-alt;
 }
 
 ul,
@@ -80,7 +80,7 @@ li {
   /* opacity: .60; */
 }
 
-.page-title h1 {
+.page-title h2 {
   position: relative;
   font-weight: 500;
   font-size: 70px;
@@ -311,7 +311,7 @@ li {
   bottom: 3rem;
   z-index: 10;
 }
-.carousel-caption h1 {
+.carousel-caption h2 {
   font-family: "PT Serif", serif;
   font-size: 80px;
   line-height: 1.1em;
@@ -360,34 +360,34 @@ li {
 }
 
 .footer-content {
-  color: white;
+  color: #ffffff;
 }
 .footer-content .resume {
   padding-bottom: 25px;
 }
 .footer-content .footer-title a {
   font-size: 25px !important;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   font-family: "PPWoodland";
   font-size: xx-large;
 }
 .footer-content .categories ul li a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 .footer-content .categories ul li a:hover {
   text-decoration: underline;
-  color: #ab7442;
+  color: main-color-alt;
 }
 
 .footer-contact ul li a {
   text-decoration: none !important;
-  color: white;
+  color: #ffffff;
 }
 .footer-contact ul li a:hover {
   text-decoration: none;
-  color: #ab7442;
+  color: main-color-alt;
 }
 
 /* SUBMENU */

@@ -27,7 +27,7 @@
   a {
 	text-decoration: none;
 	cursor: pointer;
-	color: #ab7442;
+	color: main-color-alt;
   }
   
   ul,
@@ -41,14 +41,14 @@
   
   .btn-theme {
 	background-color: #ab7442 !important;
-	color: #ffffff !important;
+	color: $main-color-primary !important;
 	border-color: #ab7442 !important;
 	transition: all 0.5s ease;
   }
   
   .btn-theme:hover {
 	background-color: #ffffff !important;
-	color: #ab7442 !important;
+	color: $main-color-alt !important;
 	border-color: #ab7442 !important;
 	transition: all 0.5s ease;
   }
@@ -83,13 +83,13 @@
 	/* opacity: .60; */
   }
   
-  .page-title h1 {
+  .page-title h2 {
 	position: relative;
 	font-weight: 500;
 	font-size: 70px;
 	line-height: 1.2em;
 	z-index: 99;
-	color: #ffffff;
+	color: $main-color-primary;
 	font-family: "PT Serif", serif;
 	margin-bottom: 10px;
   }
@@ -100,7 +100,7 @@
 	font-size: 22px;
 	line-height: 1em;
 	font-weight: 500;
-	color: #ffffff;
+	color: $main-color-primary;
 	margin-bottom: 30px;
 	opacity: 0;
 	transition: all 500ms ease;
@@ -192,7 +192,7 @@
   }
   
   .section-title .light h2:hover {
-	color: #ffffff;
+	color: $main-color-primary;
 	-webkit-text-stroke: 1px transparent;
   }
   
@@ -202,7 +202,7 @@
   }
   
   .section-title .light .text {
-	color: #ffffff;
+	color: $main-color-primary;
   }
   
   .nosotros {

@@ -12,7 +12,7 @@
 .carousel-caption {
 	bottom: 3rem;
 	z-index: 10;
-	h1 {
+	h2 {
 		font-family: "PT Serif", serif;
 		font-size: 80px;
 		line-height: 1.1em;
@@ -28,7 +28,7 @@
 		font-size: 22px;
 		line-height: 1em;
 		font-weight: 500;
-		color: #ffffff;
+		color: $main-color-primary;
 		margin-bottom: 30px;
 		opacity: 0;
 		transition: all 500ms ease;

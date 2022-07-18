@@ -1,12 +1,12 @@
 .footer-content {
-	color: white;
+	color: $main-color-primary;
 	.resume {
 		padding-bottom: 25px;
 	}
 	.footer-title {
 		a {
 			font-size: 25px !important;
-			color: white;
+			color: $main-color-primary;
 			text-decoration: none;
 			font-family: 'PPWoodland';
 			font-size: xx-large;
@@ -17,10 +17,10 @@
 			li {
 				a {
 					text-decoration: none;
-					color: white;
+					color: $main-color-primary;
 					&:hover {
 						text-decoration: underline;
-						color: #ab7442;
+						color: main-color-alt;
 					}
 				}
 			}
@@ -32,10 +32,10 @@
 		li {
 			a {
 				text-decoration: none !important;
-				color: white;
+				color: $main-color-primary;
 				&:hover {
 					text-decoration: none;
-					color: #ab7442;
+					color: main-color-alt;
 				}
 			}
 		}
