@@ -1,0 +1,43 @@
+.footer-content {
+	color: white;
+	.resume {
+		padding-bottom: 25px;
+	}
+	.footer-title {
+		a {
+			font-size: 25px !important;
+			color: white;
+			text-decoration: none;
+			font-family: 'PPWoodland';
+			font-size: xx-large;
+		}
+	}
+	.categories {
+		ul {
+			li {
+				a {
+					text-decoration: none;
+					color: white;
+					&:hover {
+						text-decoration: underline;
+						color: #ab7442;
+					}
+				}
+			}
+		}
+	}
+}
+.footer-contact {
+	ul {
+		li {
+			a {
+				text-decoration: none !important;
+				color: white;
+				&:hover {
+					text-decoration: none;
+					color: #ab7442;
+				}
+			}
+		}
+	}
+}
