@@ -20,7 +20,7 @@
 					color: $main-color-primary;
 					&:hover {
 						text-decoration: underline;
-						color: main-color-alt;
+						color: $main-color-alt;
 					}
 				}
 			}
@@ -35,7 +35,7 @@
 				color: $main-color-primary;
 				&:hover {
 					text-decoration: none;
-					color: main-color-alt;
+					color: $main-color-alt;
 				}
 			}
 		}

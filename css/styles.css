@@ -26,7 +26,7 @@ body {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: main-color-alt;
+  color: #ab7442;
 }
 
 ul,
@@ -378,7 +378,7 @@ li {
 }
 .footer-content .categories ul li a:hover {
   text-decoration: underline;
-  color: main-color-alt;
+  color: #ab7442;
 }
 
 .footer-contact ul li a {
@@ -387,7 +387,7 @@ li {
 }
 .footer-contact ul li a:hover {
   text-decoration: none;
-  color: main-color-alt;
+  color: #ab7442;
 }
 
 /* SUBMENU */
