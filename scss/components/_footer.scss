@@ -1,0 +1,43 @@
+.footer-content {
+	color: $main-color-primary;
+	.resume {
+		padding-bottom: 25px;
+	}
+	.footer-title {
+		a {
+			font-size: 25px !important;
+			color: $main-color-primary;
+			text-decoration: none;
+			font-family: 'PPWoodland';
+			font-size: xx-large;
+		}
+	}
+	.categories {
+		ul {
+			li {
+				a {
+					text-decoration: none;
+					color: $main-color-primary;
+					&:hover {
+						text-decoration: underline;
+						color: $main-color-alt;
+					}
+				}
+			}
+		}
+	}
+}
+.footer-contact {
+	ul {
+		li {
+			a {
+				text-decoration: none !important;
+				color: $main-color-primary;
+				&:hover {
+					text-decoration: none;
+					color: $main-color-alt;
+				}
+			}
+		}
+	}
+}
