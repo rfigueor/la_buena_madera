@@ -4,7 +4,7 @@
 	margin-bottom: 4rem;
 }
 .carousel-inner {
-	background-color: #353535;
+	background-image: url('../assets/img/title_bg.jpg');
 }
 .carousel-item {
 	height: 28rem;
@@ -28,7 +28,7 @@
 		font-size: 22px;
 		line-height: 1em;
 		font-weight: 500;
-		color: $main-color-primary;
+		color: #ffffff;
 		margin-bottom: 30px;
 		opacity: 0;
 		transition: all 500ms ease;
